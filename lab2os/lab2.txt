@@ -1,0 +1,24 @@
+git clone https://github.com/ViolettaLevchenko/1.git
+cd 1
+copy con lab2prob.txt
+1
+2
+3
+4
+
+type lab2prob.txt
+git config --global user.email ViolettaLevchenko@icloud.com
+git config --global user.name ViolettaLevchenko
+git add .
+git commit -m prob
+git push
+mkdir lab1os
+cd lab1os
+copy D:\��\history.txt
+git add .
+git commit -m 1
+git push
+cd ..
+mkdir lab2os
+cd lab2os
+doskey /history > lab2.txt
