@@ -1,0 +1,22 @@
+copy con spisok1.txt
+bronnikov
+fominyih
+topina
+aliyarov
+laptev
+smirnov
+popova
+
+sort spisok1.txt > spisok2.txt
+
+chcp 65001
+dir /? > dir.txt
+copy /? > copy.txt
+xcopy /? > xcopy.txt
+copy dir.txt+copy.txt+xcopy.txt spravka.txt
+
+dir C:\Windows/A:-DS/O:S > zadanie6.txt & type zadanie6.txt
+xcopy C:\Windows\*.jpeg C:\WinGrafika/I & copy C:\Windows\*.png C:\WinGrafika & copy C:\Windows\*.bmp C:\WinGrafika
+copy C:\Windows\*.exe C:\WinEx
+doskey/history > history.txt
+
